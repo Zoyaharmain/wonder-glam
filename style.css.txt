@@ -22,7 +22,7 @@ nav ul li {
 
 .hero {
   background: url('../assets/images/hero.jpg') center/cover;
-  color: white;
+  color: lavender;
   text-align: center;
   padding: 80px 20px;
 }
