@@ -1,0 +1,6 @@
+document.querySelectorAll('.add-to-cart').forEach(button => {
+  button.addEventListener('click', () => {
+    alert('Product added to cart!');
+    // Here you'd add logic to update cart state (localStorage or session)
+  });
+});
