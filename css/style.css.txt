@@ -21,8 +21,14 @@ nav ul li {
 }
 
 .hero {
-  background: url('../assets/images/hero.jpg') center/cover;
-  color: white;
+  background-color: #f9d8e5;
+  color: #550033;
   text-align: center;
   padding: 80px 20px;
+}
+
+footer {
+  background-color: #ffe6f0;
+  padding: 10px;
+  text-align: center;
 }
