@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - Wonder Glam</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Wonder Glam</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html" class="active">Products</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Our Products</h2>
+    <section class="product-grid">
+      <div class="product-card">
+        <img src="images/serum.jpg" alt="Glow Serum">
+        <h3>Glow Serum</h3>
+        <p>$25.00</p>
+        <button onclick="addToCart('Glow Serum', 25)">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/moisturizer.jpg" alt="Hydrating Moisturizer">
+        <h3>Hydrating Moisturizer</h3>
+        <p>$30.00</p>
+        <button onclick="addToCart('Hydrating Moisturizer', 30)">Add to Cart</button>
+      </div>
+
+      <!-- Add more product cards as needed -->
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Wonder Glam. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

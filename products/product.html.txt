@@ -1,9 +1,0 @@
-<section class="products">
-  <div class="product-card">
-    <img src="assets/images/lipstick.jpg" alt="Lipstick">
-    <h3>Matte Lipstick</h3>
-    <p>$14.99</p>
-    <button class="add-to-cart">Add to Cart</button>
-  </div>
-  <!-- Repeat for more products -->
-</section>
